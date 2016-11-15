@@ -1,0 +1,79 @@
+﻿body {
+    background-color: whitesmoke;
+    overflow: auto;  
+    position: relative; 
+    width: 1400px;    
+}
+
+#banner {
+    background-color: firebrick;
+    height: 50px;
+}
+
+ul, li {
+    background-color: lightgray;
+}
+
+#calendar{
+    background-color: forestgreen;
+    position: relative;
+    height: 100px;
+    width: 1350px;
+}
+
+#farleftItem {
+    background-color: sandybrown;
+    position: relative;
+    width: 200px;
+    left: 50px;
+    top:  0px;
+}
+
+#leftItem {
+    background-color: sandybrown;
+    position: relative;
+    width: 200px;
+    left: 300px;
+    top: -90px;
+}
+
+#midItem {
+    background-color: sandybrown;
+    position: relative;
+    width: 200px;
+    left: 550px;
+    top: -180px;
+}
+
+#rightItem {
+    background-color: sandybrown;
+    position: relative;
+    width: 200px;
+    left: 800px;
+    top: -270px;
+}
+
+#farrightItem {
+    background-color: sandybrown;
+    position: relative;
+    width: 200px;
+    left: 1050px;
+    top: -360px;
+}
+
+#downleftItem {
+    background-color: sandybrown;
+    position: relative;
+    width: 200px;
+    left: 350px;
+    bottom: 50px;
+}
+
+#downrightItem {
+    background-color: sandybrown;
+    position: relative;
+    width: 200px;
+    left: 750px;
+    bottom: 140px;
+}
+
