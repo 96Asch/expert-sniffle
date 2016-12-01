@@ -21,13 +21,34 @@ ul {
 }
 
 #calendar{
-    background-color: forestgreen;
+    background-color: firebrick;
     position: relative;
     height: 100px;
-    width: 1000px;
+    width: inherit;
 }
 
-#datalist{
+#calendarli{
+    border-color: black;
+    background-color:wheat;
+    padding-top:     41px;
+    padding-left:    20px;
+    padding-right:   20px;
+    padding-bottom:  42px;
+    display: inline;
+    height: 100px;
+    line-height: 100px;
+}
+
+
+#calendarli:hover{
+    background-color:grey;
+}
+
+tr:hover {
+    background-color:navajowhite;
+}
+
+#monday, #tuesday, #wednesday, #thursday, #friday, #saturday, #sunday{
     float:left;
     margin: 20px;
     width: 175px;
