@@ -5,15 +5,58 @@
       
 }
 
+span.image {
+   content:url(../images/maneki_neko.gif);
+   width:50px;
+   height:50px;
+}​
+
+.title{
+    text-transform: capitalize;
+    font-size: 200%;
+    color:azure;
+    display:block;
+    opacity: 0.9;
+    
+}
+
+.title span{
+    font-size: 150%;
+    color:aquamarine;
+}
+
+center.weekline{
+     background-color: black;
+      width:1063px;
+      opacity:0.9;
+}
+span.week, .weeknr{
+    text-transform: capitalize;
+    font-size: 200%;
+    color:orangered;
+    opacity: 0.9;
+    height:100px;
+}
+
+.week span{
+    font-size: 150%;
+    color:royalblue;
+}
+
 #banner {
     background-color: firebrick;
-    height: 50px;
-    width: inherit;
+    padding-top: 25px;
+    height: 75px;
+    width: inherit; 
+     opacity: 0.9;
 }
 
 #dayBanner{
     background-color: firebrick;
     height: 30px;
+    opacity: 0.9;
+    color:aliceblue;
+    font-size: larger;
 }
 
 ul {
@@ -25,6 +68,7 @@ ul {
     background-color: firebrick;
     height: 100px;
     width: inherit;
+     opacity: 0.9;
 }
 
 #calendarli{
@@ -45,7 +89,7 @@ ul {
 #inputbox{
     background-color:blanchedalmond;
     float:right ;
-    padding-top: 20px;
+    padding-top: 10px;
     padding-right: 50px;
     padding-bottom: 20px;
     padding-left: 10px;
@@ -53,6 +97,14 @@ ul {
 
 #textboxtext{
     word-spacing: 45px;
+}
+
+#addButton{
+    background-color:brown;
+    color: white;
+    font-size: 20px;
+    width: 300px;
+    height: 30px;
 }
 
 table{
@@ -76,3 +128,10 @@ tr:hover {
     border-width: thin;
 }
 
+div.copy{
+    float:right; 
+    background-color: whitesmoke;
+    padding: 10px;
+    font-weight: bold;
+    opacity:0.9;
+}

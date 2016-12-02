@@ -6,22 +6,23 @@ $(document).ready(function () {
     var rawJson = '{ "week" : ['+
                         '{ "day" : ['+
                             '{ "appointment" : [ ' +  
-                                    '{"time" : "12.00" , "descript" : "Doing something in between"},'   +  
-                                    '{"time" : "20.00" , "descript" : "Not done yet so I need something to do"}' +
+                                    '{"time" : "11.15" , "descript" : "Linear Algebra 1"},'   +  
+                                    '{"time" : "13.45" , "descript" : "Digital Techniques"}' +
                                     ']},' +
                             '{ "appointment" : [ ' +
-                                    '{"time" : "08.00" , "descript" : "Making a time table for a project"},' +
-                                    '{"time" : "10.00" , "descript" : "Debug v1"},' +
-                                    '{"time" : "20.00" , "descript" : "Not done yet so I need something to do"}' +
+                                    '{"time" : "09.00" , "descript" : "Studeren & Presenteren"},' +
+                                    '{"time" : "11.15" , "descript" : "FREE"},' +
+                                    '{"time" : "13.45" , "descript" : "Orientation Informatics"},' +
+                                    '{"time" : "15.45" , "descript" : "Question time PM"}' +
                                     ']},' +
                             '{ "appointment" : [ '+
-                                    '{"time" : "10.00" , "descript" : "Debug v1"},' +
-                                    '{"time" : "16.00" , "descript" : "Going back to original type"}' +
+                                    '{"time" : "11.15" , "descript" : "Programming Methods"},' +
+                                    '{"time" : "13.45" , "descript" : "Werk College PM"},' +
+                                    '{"time" : "15.45" , "descript" : "FREE?"}' +
                                     ']},' +
                             '{ "appointment" : [ ' +
-                                    '{"time" : "14.00" , "descript" : "Break time in between"},' +
-                                    '{"time" : "16.00" , "descript" : "Going back to original type"},' +
-                                    '{"time" : "18.00" , "descript" : "Debug V2"}' +
+                                    '{"time" : "11.15" , "descript" : "Linear Algebra 1"},' +
+                                    '{"time" : "13.45" , "descript" : "Digital Techniques"}' +
                                     ']},' +
                             '{ "appointment" : [ ' +
                                     '{"time" : "00.00" , "descript" : "NOTHING"}' +
@@ -31,22 +32,29 @@ $(document).ready(function () {
                                     '{"time" : "10.00" , "descript" : "Debug v1"}' +
                                     ']},' +
                             '{ "appointment" : [ ' +
-                                    '{"time" : "03.00" , "descript" : "LOREM ispsum"},' +
-                                    '{"time" : "18.00" , "descript" : "DONE"}' +
+                                    '{"time" : "03.00" , "descript" : "LOEM ispsum"},' +
+                                    '{"time" : "18.00" , "descript" : "DONE? AM I?"}' +
                                     ']}' +
                              ']},' +
                       '{ "day" : [' +
-                            '{ "appointment" : [ ' +
-                                 
+                                 '{ "appointment" : [ ' +
+                                    '{"time" : "11.15" , "descript" : "Linear Algebra 1"},' +
+                                    '{"time" : "13.45" , "descript" : "Digital Techniques"}' +
                                     ']},' +
                             '{ "appointment" : [ ' +
-                                  
+                                    '{"time" : "09.00" , "descript" : "Studeren & Presenteren"},' +
+                                    '{"time" : "11.15" , "descript" : "FREE"},' +
+                                    '{"time" : "13.45" , "descript" : "Orientation Informatics"},' +
+                                    '{"time" : "15.45" , "descript" : "Question time PM"}' +
                                     ']},' +
                             '{ "appointment" : [ ' +
-                                 
+                                    '{"time" : "11.15" , "descript" : "Programming Methods"},' +
+                                    '{"time" : "13.45" , "descript" : "Werk College PM"},' +
+                                    '{"time" : "15.45" , "descript" : "FREE?"}' +
                                     ']},' +
                             '{ "appointment" : [ ' +
-                              
+                                    '{"time" : "11.15" , "descript" : "Linear Algebra 1"},' +
+                                    '{"time" : "13.45" , "descript" : "Digital Techniques"}' +
                                     ']},' +
                             '{ "appointment" : [ ' +
                                     '{"time" : "00.00" , "descript" : "NOTHING"}' +
@@ -56,49 +64,48 @@ $(document).ready(function () {
                                     '{"time" : "10.00" , "descript" : "Debug v1"}' +
                                     ']},' +
                             '{ "appointment" : [ ' +
-                                    '{"time" : "03.00" , "descript" : "LOREM ispsum"},' +
-                                    '{"time" : "18.00" , "descript" : "DONE"}' +
+                                    '{"time" : "03.00" , "descript" : "LOEM ispsum"},' +
+                                    '{"time" : "18.00" , "descript" : "DONE? AM I?"}' +
                                     ']}' +
                              ']},' +
                  '{ "day" : [' +
                             '{ "appointment" : [ ' +
-                                    '{"time" : "12.00" , "descript" : "Doing something in between"},' +
-                                    '{"time" : "20.00" , "descript" : "Not done yet so I need something to do"}' +
+                                    '{"time" : "11.15" , "descript" : "Linear Algebra 1"},' +
+                                    '{"time" : "13.45" , "descript" : "Digital Techniques"}' +
                                     ']},' +
                             '{ "appointment" : [ ' +
-                                    '{"time" : "08.00" , "descript" : "Making a time table for a project"},' +
-                                    '{"time" : "10.00" , "descript" : "Debug v1"},' +
-                                    '{"time" : "20.00" , "descript" : "Not done yet so I need something to do"}' +
+                                    '{"time" : "09.00" , "descript" : "Studeren & Presenteren"},' +
+                                    '{"time" : "11.15" , "descript" : "FREE"},' +
+                                    '{"time" : "13.45" , "descript" : "Orientation Informatics"},' +
+                                    '{"time" : "15.45" , "descript" : "Question time PM"}' +
                                     ']},' +
                             '{ "appointment" : [ ' +
-                                    '{"time" : "10.00" , "descript" : "Debug v1"},' +
-                                    '{"time" : "16.00" , "descript" : "Going back to original type"}' +
+                                    '{"time" : "11.15" , "descript" : "Programming Methods"},' +
+                                    '{"time" : "13.45" , "descript" : "Werk College PM"},' +
+                                    '{"time" : "15.45" , "descript" : "FREE?"}' +
                                     ']},' +
                             '{ "appointment" : [ ' +
-                                    '{"time" : "14.00" , "descript" : "Break time in between"},' +
-                                    '{"time" : "16.00" , "descript" : "Going back to original type"},' +
-                                    '{"time" : "18.00" , "descript" : "Debug V2"}' +
+                                    '{"time" : "11.15" , "descript" : "Linear Algebra 1"},' +
+                                    '{"time" : "13.45" , "descript" : "Digital Techniques"}' +
                                     ']},' +
                             '{ "appointment" : [ ' +
-                                    '{"time" : "00.00" , "descript" : "NOTHING"}' +
+                                    '{"time" : "00.00" , "descript" : "welp there ya go"}' +
                                     ']},' +
                             '{ "appointment" : [ ' +
                                     '{"time" : "08.00" , "descript" : "Making a time table for a project"},' +
                                     '{"time" : "10.00" , "descript" : "Debug v1"}' +
                                     ']},' +
                             '{ "appointment" : [ ' +
-                                    '{"time" : "03.00" , "descript" : "LOREM ispsum"},' +
-                                    '{"time" : "18.00" , "descript" : "DONE"}' +
+                                    '{"time" : "23.00" , "descript" : "Got nothing to do"},' +
+                                    '{"time" : "23.00" , "descript" : "AM I donwe?"}' +
                                     ']}' +
                              ']},' +
                      '{ "day" : [' +
                             '{ "appointment" : [ ' +
-                                    '{"time" : "12.00" , "descript" : "Doing something in between"},' +
-                                    '{"time" : "20.00" , "descript" : "Not done yet so I need something to do"}' +
+                                    '{"time" : "12.00" , "descript" : "Doing something in between"}' +
                                     ']},' +
                             '{ "appointment" : [ ' +
-                                    '{"time" : "08.00" , "descript" : "Making a time table for a project"},' +
-                                    '{"time" : "20.00" , "descript" : "Not done yet so I need something to do"}' +
+                                    '{"time" : "14.00   " , "descript" : "End Term Programming Methods"}' +
                                     ']},' +
                             '{ "appointment" : [ ' +
                                     '{"time" : "10.00" , "descript" : "Debug v1"},' +
@@ -110,7 +117,7 @@ $(document).ready(function () {
                                     '{"time" : "18.00" , "descript" : "Debug V2"}' +
                                     ']},' +
                             '{ "appointment" : [ ' +
-                                    '{"time" : "00.00" , "descript" : "NOTHING"}' +
+                                    '{"time" : "00.00" , "descript" : "TESTING"}' +
                                     ']},' +
                             '{ "appointment" : [ ' +
                                     '{"time" : "08.00" , "descript" : "Making a time table for a project"},' +
@@ -118,7 +125,7 @@ $(document).ready(function () {
                                     ']},' +
                             '{ "appointment" : [ ' +
                                     '{"time" : "03.00" , "descript" : "LOREM ispsum"},' +
-                                    '{"time" : "18.00" , "descript" : "DONE"}' +
+                                    '{"time" : "18.00" , "descript" : "YES DONE"}' +
                                     ']}' +
                              ']}' +
                    ']}';
@@ -172,59 +179,85 @@ $(document).ready(function () {
         }
     };
 
+    //Change the week number shown.
+    function changeweeknr(week) {
+        $('.weeknr').text(week);
+    }
+
     //Shows all items for week 1
     $('.buttonwk1').on('click', function () {
         var val = $(this).attr("value");
+        var week = $(this).text();
+        changeweeknr(week);
         addall(json, val);
     });
 
     //Shows all items for week 2
     $('.buttonwk2').on('click', function () {
         var val = $(this).attr("value");
+        var week = $(this).text();
+        changeweeknr(week);
         addall(json, val);
     });
 
     //Shows all items for week 3
     $('.buttonwk3').on('click', function () {
         var val = $(this).attr("value");
+        var week = $(this).text();
+        changeweeknr(week);
         addall(json, val);
     });
 
     //Shows all items for week 4
     $('.buttonwk4').on('click', function () {
         var val = $(this).attr("value");
+        var week = $(this).text();
+        changeweeknr(week);
         addall(json, val);
     });
 
+
+
     // Adds a user item to the JSON string.
-    function adduseritem() {
-        json.week[$('#weekid').val()].day[$('#dayid').val()].appointment.push({ "time": $('#timeinput').val(), "descript": $('#descriptinput').val() });
+    function adduseritem(time) {
+        json.week[$('#weekid').val()].day[$('#dayid').val()].appointment
+        .push({ "time": time, "descript": $('#descriptinput').val() });
         rawJSON = JSON.stringify(json);
         addall(json, 0);
     };
 
+    // Adds user item when button is clicked.
     $('.input').on('click', function () {
-        if (($('#timeinput').val() !== "")
-              && ($('#descriptinput').val() !== "")) {
-            adduseritem();
+        var time = $('#timeinput').val();
+        if ((time !== "")
+              && ($('#descriptinput').val() !== "")
+            && !(time.match(/[a-z]/i))) {
+
+            if ($('#timeinput').val().charAt(2) !== '.') { time = "00.00" }
+            adduseritem(time);
         }
         else{
-            alert("Please enter all fields");
+            alert("Please enter all fields correctly");
         }
     });
 
-    $('.Delete').on('click', function () {
-       
+    // Presses the submit button when enter key is pressed in textfield.
+    $('.enterinput').keyup(function (event) {
+        if (event.keyCode == 13) {
+            $("#addButton").click();
+        }
     });
 
+    //Deletes an item in the array.
     $(document).on("click", "div.Delete", function () {
         var id = $(this).attr('id');
-        json.week[id[0]].day[id[2]].appointment.splice(id[6], 1);
-        addall(json, 0);
-
+        json.week[id[0]].day[id[2]].appointment.splice(id[4], 1);
+        addall(json, id[0]);
     });
 
 
     //Function that should be run when the page is loaded
-    var main = addall(json , 0);
+    var main = addall(json, 0);
+    var main2 = changeweeknr(48);
+   
 });

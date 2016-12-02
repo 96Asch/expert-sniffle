@@ -8,8 +8,15 @@
 
 </head>
 <body>
-<h1 id="banner">Perfect Timetable</h1>
- <center><h2>Week</h2></center>
+<h1 id="banner" class="title"><span>S</span>uper <span>U</span>ltra <span>T</span>imetable <span>A</span>rcade
+    <span>R</span>emix <span>H</span>yper <span>E</span>dition <span>E</span>x <span>A</span>lpha</h1>
+    <div class="copy">
+        Created by Andrew Huang&reg; s1913999,<br>
+        Starting at 28 Nov 2016. &copy;
+    </div>
+    <center class="weekline"><span class="image"></span>
+    <span class="week"><span>W</span>eek</span>&nbsp;&nbsp;<span class="weeknr"></span>
+    <span class="image"></span></center>
 <div id="calendar">
     <button type="button" class="buttonwk1" id="calendarli" value="0">48</button>
     <button type="button" class="buttonwk2" id="calendarli" value="1">49</button>
@@ -35,8 +42,8 @@
             <option value="5">Saturday</option>
             <option value="6">Sunday</option>
         </select>
-        <input type="text" size="5" maxlength="5" placeholder="00.00" id="timeinput"/>
-        <input type="text" placeholder="Your lovely day here" id="descriptinput"/><br>
+        <input type="text" class="enterinput" size="5" maxlength="5" placeholder="00.00" id="timeinput"/>
+        <input type="text" class="enterinput" placeholder="Your lovely day here" id="descriptinput"/><br>
         <button type="button" class="input" id="addButton" placeholder="test">Add to Timetable</button>
     </span>
    
@@ -65,6 +72,8 @@
     <ul id="sunday">
         <li id="dayBanner">Sunday</li>
     </ul>
+
+
 
 <script src="../js/jquery-2.0.3.min.js"></script>    
 <script src="../js/calendar.js"></script>
