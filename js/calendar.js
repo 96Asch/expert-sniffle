@@ -223,7 +223,7 @@ $(document).ready(function () {
         json.week[$('#weekid').val()].day[$('#dayid').val()].appointment
         .push({ "time": time, "descript": $('#descriptinput').val() });
         rawJSON = JSON.stringify(json);
-        addall(json, 0);
+        addall(json, $('#weekid').val());
     };
 
     // Adds user item when button is clicked.
