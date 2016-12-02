@@ -10,13 +10,40 @@
 <body>
 <h1 id="banner">Perfect Timetable</h1>
  <center><h2>Week</h2></center>
-<ul id="calendar">
-    <li id="calendarli">1</li>
-    <li id="calendarli">2</li>
-    <li id="calendarli">3</li>
-    <li id="calendarli">4</li>
-</ul>
-    
+<div id="calendar">
+    <button type="button" class="buttonwk1" id="calendarli" value="0">48</button>
+    <button type="button" class="buttonwk2" id="calendarli" value="1">49</button>
+    <button type="button" class="buttonwk3" id="calendarli" value="2">50</button>
+    <button type="button" class="buttonwk4" id="calendarli" value="3">2</button>
+    <span id="inputbox">
+        <span id="textboxtext">
+         Week Day Time Description
+        </span>
+        <br>
+        <select name="week" id="weekid">
+            <option value="0">Week 48</option>
+            <option value="1">Week 49</option>
+            <option value="2">Week 50</option>
+            <option value="3">Week 02</option>
+        </select>
+        <select name="date" id="dayid">
+            <option value="0">Monday</option>
+            <option value="1">Tuesday</option>
+            <option value="2">Wednesday</option>
+            <option value="3">Thursday</option>
+            <option value="4">Friday</option>
+            <option value="5">Saturday</option>
+            <option value="6">Sunday</option>
+        </select>
+        <input type="text" size="5" maxlength="5" placeholder="00.00" id="timeinput"/>
+        <input type="text" placeholder="Your lovely day here" id="descriptinput"/><br>
+        <button type="button" class="input" id="addButton" placeholder="test">Add to Timetable</button>
+    </span>
+   
+
+</div>
+
+
     <ul id="monday">
         <li id="dayBanner">Monday</li>
     </ul>

@@ -1,14 +1,119 @@
-{
-  "appoint": {
-    "weeks": {
-      "week1": {
-        "appointment": {
-          "wknr": "1",
-          "date": "dd/mm/yyyy",
-          "time": "hh/mm",
-          "descript": "Lorem Ipsum"
-        }
-      }
-    }
-  }
-}
+{ "week" : [
+               { "day" : [
+                     { "appointment" : [   
+                            {"time" : "12.00" , "descript" : "Doing something in between"},  
+                            {"time" : "20.00" , "descript" : "Not done yet so I need something to do"} 
+                          ]},
+                     { "appointment" : [ 
+                                    {"time" : "08.00" , "descript" : "Making a time table for a project"},
+                                    {"time" : "10.00" , "descript" : "Debug v1"},
+                                    {"time" : "20.00" , "descript" : "Not done yet so I need something to do"}
+                                    ]},
+                     { "appointment" : [ 
+                                    {"time" : "10.00" , "descript" : "Debug v1"},
+                                    {"time" : "16.00" , "descript" : "Going back to original type"}
+                                    ]},
+                     { "appointment" : [
+                                    {"time" : "14.00" , "descript" : "Break time in between"},
+                                    {"time" : "16.00" , "descript" : "Going back to original type"},
+                                    {"time" : "18.00" , "descript" : "Debug V2"}
+                                    ]},
+                     { "appointment" : [ 
+                                    {"time" : "00.00" , "descript" : "NOTHING"}
+                                    ]},
+                            { "appointment" : [
+                                    {"time" : "08.00" , "descript" : "Making a time table for a project"},
+                                    {"time" : "10.00" , "descript" : "Debug v1"}
+                                    ]},
+                     { "appointment" : [
+                                    {"time" : "03.00" , "descript" : "LOREM ispsum"},
+                                    {"time" : "18.00" , "descript" : "DONE"}
+                                    ]}
+                             ]},
+                      { "day" : [
+                            { "appointment" : [
+                                 
+                                    ]},
+                            { "appointment" : [ 
+                                  
+                                    ]},
+                            { "appointment" : [
+                                 
+                                    ]},
+                            { "appointment" : [
+                              
+                                    ]},
+                            { "appointment" : [
+                                    {"time" : "00.00" , "descript" : "NOTHING"}
+                                    ]},
+                            { "appointment" : [ 
+                                    {"time" : "08.00" , "descript" : "Making a time table for a project"},
+                                    {"time" : "10.00" , "descript" : "Debug v1"}
+                                    ]},
+                            { "appointment" : [
+                                    {"time" : "03.00" , "descript" : "LOREM ispsum"},
+                                    {"time" : "18.00" , "descript" : "DONE"}
+                                    ]}
+                             ]},
+                 { "day" : [
+                            { "appointment" : [
+                                    {"time" : "12.00" , "descript" : "Doing something in between"},
+                                    {"time" : "20.00" , "descript" : "Not done yet so I need something to do"}
+                                    ]},
+                            { "appointment" : [
+                                    {"time" : "08.00" , "descript" : "Making a time table for a project"},
+                                    {"time" : "10.00" , "descript" : "Debug v1"},
+                                    {"time" : "20.00" , "descript" : "Not done yet so I need something to do"}
+                                    ]},
+                            { "appointment" : [
+                                    {"time" : "10.00" , "descript" : "Debug v1"},
+                                    {"time" : "16.00" , "descript" : "Going back to original type"}
+                                    ]},
+                            { "appointment" : [
+                                    {"time" : "14.00" , "descript" : "Break time in between"},
+                                    {"time" : "16.00" , "descript" : "Going back to original type"},
+                                    {"time" : "18.00" , "descript" : "Debug V2"}
+                                    ]},
+                            { "appointment" : [
+                                    {"time" : "00.00" , "descript" : "NOTHING"}
+                                    ]},
+                            { "appointment" : [
+                                    {"time" : "08.00" , "descript" : "Making a time table for a project"},
+                                    {"time" : "10.00" , "descript" : "Debug v1"}
+                                    ]},
+                            { "appointment" : [
+                                    {"time" : "03.00" , "descript" : "LOREM ispsum"},
+                                    {"time" : "18.00" , "descript" : "DONE"}
+                                    ]}
+                             ]},
+                     { "day" : [
+                            { "appointment" : [
+                                    {"time" : "12.00" , "descript" : "Doing something in between"},
+                                    {"time" : "20.00" , "descript" : "Not done yet so I need someting to do"}
+                                    ]},
+                            { "appointment" : [
+                                    {"time" : "08.00" , "descript" : "Making a time table for a project"},
+                                    {"time" : "20.00" , "descript" : "Not done yet so I need something to do"}
+                                    ]},
+                            { "appointment" : [
+                                    {"time" : "10.00" , "descript" : "Debug v1"},
+                                    {"time" : "16.00" , "descript" : "Going back to original type"}
+                                    ]},
+                            { "appointment" : [
+                                    {"time" : "14.00" , "descript" : "Break time in between"},
+                                    {"time" : "16.00" , "descript" : "Going back to original type"},
+                                    {"time" : "18.00" , "descript" : "Debug V2"}
+                                    ]},
+                            { "appointment" : [
+                                    {"time" : "00.00" , "descript" : "NOTHING"}
+                                    ]},
+                            { "appointment" : [
+                                    {"time" : "08.00" , "descript" : "Making a time table for a project"},
+                                    {"time" : "10.00" , "descript" : "Debug v1"}
+                                    ]},
+                            { "appointment" : [
+                                    {"time" : "03.00" , "descript" : "LOREM ispsum"},
+                                    {"time" : "18.00" , "descript" : "DONE"}
+                                    ]}
+                             ]}
+                   ]}

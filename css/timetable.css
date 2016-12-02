@@ -1,7 +1,8 @@
 ﻿body {
-    background-color: whitesmoke;
-    overflow: auto;  
-    width: inherit;    
+   background: url(../images/prinny_spin.gif) repeat;
+   overflow: auto;  
+   width: inherit;  
+      
 }
 
 #banner {
@@ -22,7 +23,6 @@ ul {
 
 #calendar{
     background-color: firebrick;
-    position: relative;
     height: 100px;
     width: inherit;
 }
@@ -31,17 +31,37 @@ ul {
     border-color: black;
     background-color:wheat;
     padding-top:     41px;
-    padding-left:    20px;
-    padding-right:   20px;
+    padding-left:    10px;
+    padding-right:   10px;
     padding-bottom:  42px;
-    display: inline;
-    height: 100px;
-    line-height: 100px;
+
 }
 
 
 #calendarli:hover{
     background-color:grey;
+}
+
+#inputbox{
+    background-color:blanchedalmond;
+    float:right ;
+    padding-top: 20px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+}
+
+#textboxtext{
+    word-spacing: 45px;
+}
+
+table{
+    background-color:whitesmoke;
+    border-collapse:collapse;
+}
+
+tr{
+    padding: 0;
 }
 
 tr:hover {
@@ -50,8 +70,8 @@ tr:hover {
 
 #monday, #tuesday, #wednesday, #thursday, #friday, #saturday, #sunday{
     float:left;
-    margin: 20px;
-    width: 175px;
+    margin: 5px;
+    width: 200px;
     border-style: solid;
     border-width: thin;
 }
